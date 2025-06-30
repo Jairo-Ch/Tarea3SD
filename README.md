@@ -116,11 +116,15 @@ TAREA3SD/
   source venv/bin/activate
   pip install -r requirements.txt
    ```
+
 3. Levanta el entorno distribuido con Docker (incluye Apache Pig y Hadoop):
+
   ```bash
     docker compose up --build
   ```
+
 4. Carga los datos en Elasticsearch
+
   ```bash
       source venv/bin/activate      
       python cargar_eventos.py      

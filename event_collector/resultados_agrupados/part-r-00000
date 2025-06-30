@@ -1,0 +1,255 @@
+Buin,JAM,39
+Buin,HAZARD,30
+Buin,POLICE,20
+Buin,ACCIDENT,4
+Buin,ROAD_CLOSED,1
+Lampa,JAM,31
+Lampa,HAZARD,27
+Lampa,POLICE,10
+Lampa,ACCIDENT,7
+Lampa,CHIT_CHAT,2
+Macul,JAM,118
+Macul,HAZARD,163
+Macul,POLICE,79
+Macul,ACCIDENT,5
+Macul,CHIT_CHAT,18
+Macul,ROAD_CLOSED,2
+Maipo,JAM,4
+Maipo,HAZARD,2
+Maipo,POLICE,2
+Maipo,ROAD_CLOSED,3
+Renca,JAM,131
+Renca,HAZARD,86
+Renca,POLICE,55
+Renca,ACCIDENT,4
+Renca,CHIT_CHAT,2
+Renca,ROAD_CLOSED,6
+Colina,JAM,12
+Colina,HAZARD,3
+Colina,POLICE,1
+Maipú,JAM,307
+Maipú,HAZARD,236
+Maipú,POLICE,134
+Maipú,ACCIDENT,21
+Maipú,CHIT_CHAT,20
+Maipú,ROAD_CLOSED,56
+Pirque,JAM,40
+Pirque,HAZARD,24
+Pirque,POLICE,27
+Pirque,CHIT_CHAT,8
+Ñuñoa,JAM,526
+Ñuñoa,HAZARD,267
+Ñuñoa,POLICE,98
+Ñuñoa,ACCIDENT,35
+Ñuñoa,CHIT_CHAT,30
+Ñuñoa,ROAD_CLOSED,9
+Chicureo,JAM,5
+Chicureo,HAZARD,1
+Chicureo,POLICE,1
+Chicureo,ACCIDENT,1
+La Reina,JAM,461
+La Reina,HAZARD,102
+La Reina,POLICE,61
+La Reina,ACCIDENT,4
+La Reina,CHIT_CHAT,12
+Linderos,JAM,4
+Linderos,POLICE,4
+Lipangue,HAZARD,2
+Lo Prado,JAM,12
+Lo Prado,HAZARD,45
+Lo Prado,POLICE,30
+Lo Prado,ACCIDENT,2
+Lo Prado,CHIT_CHAT,7
+Lo Prado,ROAD_CLOSED,1
+Pudahuel,JAM,112
+Pudahuel,HAZARD,98
+Pudahuel,POLICE,117
+Pudahuel,ACCIDENT,11
+Pudahuel,CHIT_CHAT,23
+Pudahuel,ROAD_CLOSED,69
+Recoleta,JAM,165
+Recoleta,HAZARD,126
+Recoleta,POLICE,89
+Recoleta,ACCIDENT,8
+Recoleta,CHIT_CHAT,31
+Recoleta,ROAD_CLOSED,2
+Santiago,JAM,843
+Santiago,HAZARD,546
+Santiago,POLICE,505
+Santiago,ACCIDENT,42
+Santiago,CHIT_CHAT,167
+Santiago,ROAD_CLOSED,18
+Vitacura,JAM,309
+Vitacura,HAZARD,67
+Vitacura,POLICE,49
+Vitacura,ACCIDENT,15
+Vitacura,CHIT_CHAT,10
+Vitacura,ROAD_CLOSED,6
+Cerrillos,JAM,45
+Cerrillos,HAZARD,47
+Cerrillos,POLICE,37
+Cerrillos,CHIT_CHAT,5
+Cerrillos,ROAD_CLOSED,1
+Chamisero,JAM,2
+Chamisero,HAZARD,3
+Chamisero,POLICE,4
+Conchalí,JAM,42
+Conchalí,HAZARD,61
+Conchalí,POLICE,26
+Conchalí,ACCIDENT,1
+Conchalí,CHIT_CHAT,4
+Conchalí,ROAD_CLOSED,39
+El Bosque,JAM,60
+El Bosque,HAZARD,60
+El Bosque,POLICE,64
+El Bosque,ACCIDENT,11
+El Bosque,CHIT_CHAT,7
+El Bosque,ROAD_CLOSED,8
+El Canelo,HAZARD,3
+La Granja,JAM,62
+La Granja,HAZARD,72
+La Granja,POLICE,46
+La Granja,ACCIDENT,8
+La Granja,CHIT_CHAT,8
+La Granja,ROAD_CLOSED,6
+Lo Espejo,JAM,49
+Lo Espejo,HAZARD,52
+Lo Espejo,POLICE,30
+Lo Espejo,ACCIDENT,1
+Lo Espejo,CHIT_CHAT,6
+Peñaflor,HAZARD,1
+Peñaflor,POLICE,1
+Quilicura,JAM,259
+Quilicura,HAZARD,162
+Quilicura,POLICE,91
+Quilicura,ACCIDENT,10
+Quilicura,CHIT_CHAT,23
+Quilicura,ROAD_CLOSED,2
+Huechuraba,JAM,169
+Huechuraba,HAZARD,75
+Huechuraba,POLICE,44
+Huechuraba,ACCIDENT,2
+Huechuraba,CHIT_CHAT,6
+La Florida,JAM,393
+La Florida,HAZARD,304
+La Florida,POLICE,142
+La Florida,ACCIDENT,21
+La Florida,CHIT_CHAT,35
+La Florida,ROAD_CLOSED,14
+La Pintana,JAM,58
+La Pintana,HAZARD,76
+La Pintana,POLICE,56
+La Pintana,ACCIDENT,11
+La Pintana,CHIT_CHAT,5
+La Pintana,ROAD_CLOSED,3
+Las Condes,JAM,761
+Las Condes,HAZARD,292
+Las Condes,POLICE,161
+Las Condes,ACCIDENT,26
+Las Condes,CHIT_CHAT,30
+Las Condes,ROAD_CLOSED,4
+San Miguel,JAM,193
+San Miguel,HAZARD,93
+San Miguel,POLICE,72
+San Miguel,ACCIDENT,5
+San Miguel,CHIT_CHAT,30
+San Miguel,ROAD_CLOSED,1
+San Ramón,JAM,20
+San Ramón,HAZARD,41
+San Ramón,POLICE,46
+San Ramón,ACCIDENT,4
+San Ramón,CHIT_CHAT,4
+San Ramón,ROAD_CLOSED,1
+Alto Jahuel,JAM,6
+Alto Jahuel,POLICE,4
+Cerro Navia,JAM,22
+Cerro Navia,HAZARD,29
+Cerro Navia,POLICE,33
+Cerro Navia,ACCIDENT,2
+Cerro Navia,CHIT_CHAT,5
+Cerro Navia,ROAD_CLOSED,24
+La Cisterna,JAM,91
+La Cisterna,HAZARD,60
+La Cisterna,POLICE,38
+La Cisterna,ACCIDENT,9
+La Cisterna,CHIT_CHAT,12
+La Cisterna,ROAD_CLOSED,20
+Peñalolén,JAM,268
+Peñalolén,HAZARD,165
+Peñalolén,POLICE,84
+Peñalolén,ACCIDENT,7
+Peñalolén,CHIT_CHAT,15
+Peñalolén,ROAD_CLOSED,17
+Providencia,JAM,852
+Providencia,HAZARD,295
+Providencia,POLICE,137
+Providencia,ACCIDENT,12
+Providencia,CHIT_CHAT,48
+Providencia,ROAD_CLOSED,11
+Puente Alto,JAM,304
+Puente Alto,HAZARD,251
+Puente Alto,POLICE,179
+Puente Alto,ACCIDENT,16
+Puente Alto,CHIT_CHAT,32
+Puente Alto,ROAD_CLOSED,2
+Lo Barnechea,JAM,87
+Lo Barnechea,HAZARD,72
+Lo Barnechea,POLICE,36
+Lo Barnechea,ACCIDENT,3
+Lo Barnechea,CHIT_CHAT,8
+Lo Barnechea,ROAD_CLOSED,6
+San Bernardo,JAM,308
+San Bernardo,HAZARD,163
+San Bernardo,POLICE,96
+San Bernardo,ACCIDENT,7
+San Bernardo,CHIT_CHAT,8
+San Bernardo,ROAD_CLOSED,4
+San Joaquín,JAM,90
+San Joaquín,HAZARD,62
+San Joaquín,POLICE,46
+San Joaquín,ACCIDENT,10
+San Joaquín,CHIT_CHAT,9
+San Joaquín,ROAD_CLOSED,7
+Valle Grande,JAM,21
+Valle Grande,HAZARD,8
+Valle Grande,POLICE,7
+Valle Grande,CHIT_CHAT,1
+Independencia,JAM,65
+Independencia,HAZARD,107
+Independencia,POLICE,77
+Independencia,ACCIDENT,9
+Independencia,CHIT_CHAT,15
+Independencia,ROAD_CLOSED,1
+Padre Hurtado,JAM,23
+Padre Hurtado,HAZARD,15
+Padre Hurtado,POLICE,13
+Padre Hurtado,ACCIDENT,4
+Padre Hurtado,CHIT_CHAT,1
+Padre Hurtado,ROAD_CLOSED,3
+Quinta Normal,JAM,49
+Quinta Normal,HAZARD,105
+Quinta Normal,POLICE,43
+Quinta Normal,ACCIDENT,1
+Quinta Normal,CHIT_CHAT,9
+Quinta Normal,ROAD_CLOSED,6
+Las Vertientes,HAZARD,3
+Calera de Tango,JAM,24
+Calera de Tango,HAZARD,6
+Calera de Tango,POLICE,9
+Calera de Tango,ACCIDENT,1
+Estación Central,JAM,173
+Estación Central,HAZARD,195
+Estación Central,POLICE,105
+Estación Central,ACCIDENT,13
+Estación Central,CHIT_CHAT,38
+Estación Central,ROAD_CLOSED,5
+Pedro Aguirre Cerda,JAM,49
+Pedro Aguirre Cerda,HAZARD,52
+Pedro Aguirre Cerda,POLICE,39
+Pedro Aguirre Cerda,ACCIDENT,3
+Pedro Aguirre Cerda,CHIT_CHAT,5
+Pedro Aguirre Cerda,ROAD_CLOSED,2
+Rinconada de Maipú,JAM,1
+Rinconada de Maipú,HAZARD,2
+Santa Rosa de Chena,HAZARD,3
+Santa Rosa de Chena,POLICE,1

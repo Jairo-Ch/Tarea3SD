@@ -1,0 +1,8 @@
+# Evitar que se suba el venv si se vuelve a crear
+venv/
+
+# Cosas innecesarias
+__pycache__/
+*.pyc
+.DS_Store
+estructura.txt

@@ -1,0 +1,88 @@
+version: "3.8"
+
+services:
+  # PostgreSQL
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_DB: trafico
+      POSTGRES_USER: jairo
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - red_sd
+
+  # Redis
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - red_sd
+
+  # API con FastAPI
+  traffic_api:
+    build: ./traffic_api
+    container_name: traffic_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./traffic_api:/app
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - red_sd
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Pig worker
+  pig_worker:
+    build: ./pig_env
+    container_name: pig_worker
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./event_collector:/data
+    networks:
+      - red_sd
+
+  # Elasticsearch
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    networks:
+      - red_sd
+
+  # Kibana
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.2
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+    networks:
+      - red_sd
+
+volumes:
+  postgres_data:
+  esdata:
+
+networks:
+  red_sd:
+    driver: bridge
